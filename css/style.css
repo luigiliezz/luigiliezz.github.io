@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(88, 6, 6);
+
+}
+
+body {
+    background-color: rgb(216, 196, 206);
+}
+
+h1 {
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 25px;
+    border-color: black;
+}
+
+p {
+    color: rgb(88, 6, 6);
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+ol {
+    font-size: 20px;
+    font-style: unset;
+    color: aliceblue;
+    
+}
+
+img {
+    width: 400px; 
+    /* Esse é largura */
+    /* height: 200px; */
+    /* Esse é altura */
+    
+}
+
+a {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
