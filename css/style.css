@@ -1,10 +1,10 @@
 h1 {
-    color: rgb(88, 6, 6);
+    color: rgb(185, 59, 59);
 
 }
 
 body {
-    background-color: rgb(216, 196, 206);
+    background-color: rgb(243, 194, 204);
 }
 
 h1 {
@@ -16,21 +16,22 @@ h1 {
 }
 
 p {
-    color: rgb(88, 6, 6);
-    font-size: 30px;
+    color: rgb(185, 59, 59);
+    font-size: 25px;
     font-style: italic;
-    text-align: center;
+  
 }
 
 ol {
     font-size: 20px;
     font-style: unset;
-    color: aliceblue;
+    color: rgb(124, 1, 1);
+
     
 }
 
 img {
-    width: 400px; 
+    width: 350px; 
     /* Esse é largura */
     /* height: 200px; */
     /* Esse é altura */
@@ -39,8 +40,26 @@ img {
 
 a {
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
+}
+    #estrofe-meio{
+        text-align: center;
+    }
+
+#musicas-meio{
+    text-align: center;
 }
 
+div{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgb(185, 59, 59); 
+    border-style: solid;
+}
 
+#imagem1{
+    width:  800px;
+    display: block;
+    margin: auto;
+}
 
