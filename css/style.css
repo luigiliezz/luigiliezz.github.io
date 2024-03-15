@@ -109,6 +109,13 @@ div{
 #twice{
     width: 500px;
 }
+#fraseinicial{
+    color: rgb(185, 59, 59);
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+
+}
 
 a:hover {
     background-color: rgb(185, 59, 59);
