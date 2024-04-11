@@ -1,5 +1,9 @@
-h1 {
-    color: rgb(185, 59, 59);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
 
 }
 
@@ -9,29 +13,34 @@ body {
 
 h1 {
     font-size: 60px;
-    font-style: oblique;
+    font-style: 'poppins';
     text-align: center;
     border-radius: 25px;
     border-color: black;
+    padding: 1%;
+    color: rgb(185, 59, 59);
 }
 
 p {
     color: rgb(185, 59, 59);
     font-size: 25px;
-    font-style: italic;
-  
+    padding: 1px 30px;
+    font-family: serif;
+   
 }
 
 ol {
     font-size: 20px;
     font-style: unset;
     color: rgb(124, 1, 1);
+    line-height: 170%;
 
     
 }
 
 img {
     width: 350px; 
+
     /* Esse é largura */
     /* height: 200px; */
     /* Esse é altura */
@@ -46,26 +55,31 @@ a {
     padding: 2px;
     color: rgb(185, 59, 59);
     border-radius: 25px;
-    border-radius: 20%;
-    background-color: rgb(243, 194, 204);
+    border-radius: 15%;
+    background-color: rgba(244, 180, 193, 0.91);
     margin: 10px auto;
-
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
-    #estrofe-meio{
-        text-align: center;
-    }
+#estrofe-meio{
+    text-align: center;
+    font-weight: 800;
+}
 
 #musicas-meio{
     text-align: center;
+    font-style: oblique;
+    font-weight: 800;
 }
 
 div{
+    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 20px;
     border-radius: 5px;
     border-color: rgb(185, 59, 59); 
     border-style: solid;
+    padding: 2px;
 }
 
 #imagem1{
@@ -109,15 +123,112 @@ div{
 #twice{
     width: 500px;
 }
+
 #fraseinicial{
     color: rgb(185, 59, 59);
     font-size: 25px;
-    font-style: italic;
+    font-family: serif;
     text-align: center;
+    font-weight: 800;
 
 }
 
+#snsd_2{
+    width: 500px;
+}
+
+#k{
+    font-size: 50px;
+}
+
+#ma{
+    width: 500px;
+}
+
+
+#cont{
+    text-align: left;
+    font-size: 200%;
+    color: rgb(86, 2, 2);
+    font-style: 'poppins';
+    font-weight: 800;
+}
+#se{
+    font-size: 14px;
+    padding: 0px 40px;
+    color: rgb(124, 1, 1);
+    font-weight: 400;
+
+}
+
+#div1{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(185, 59, 59, 0); 
+    border-style: solid;
+    padding: 2px;
+
+}
+
+#div2{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(185, 59, 59, 0); 
+    border-style: solid;
+    padding: 2px;
+
+}
+footer{
+    background-color: rgba(222, 164, 176, 0.762);
+}
+
+li{
+    font-size: 30px;
+    padding: 1%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(222, 164, 176, 0.762);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+   
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(86, 2, 2);
+    
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a{
+    padding-left: 20px;
+}
+ 
 a:hover {
     background-color: rgb(185, 59, 59);
     color: rgb(61, 4, 4); ;
+}
+#insta{
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(185, 59, 59);
+    border-radius: 25px;
+    border-radius: 15%;
+    background-color: rgba(244, 180, 193, 0.91);
+    font-size: 20px;
+    margin: auto;
+ 
+
 }
